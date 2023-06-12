@@ -20,8 +20,8 @@ spec:
       containers:
       - name: rollouts-demo
         # image: argoproj/rollouts-demo:bluee
-        image: argoproj/rollouts-demo:green
-        #image: nginx
+        #image: argoproj/rollouts-demo:green
+        image: nginx
         imagePullPolicy: Always
         resources:
           requests:
